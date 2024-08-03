@@ -1,0 +1,89 @@
+.container{
+    background-color:white;
+    overflow: hidden;
+    font-size: 30px;
+    font-family: "Bakbak One", sans-serif;
+    font-weight: 400;
+}
+.container a{
+    color: white;
+    float: left;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    gap: 5px;
+}
+.container a.nav-right{
+    float: right;
+    color: black;
+    font-size: 20px;
+    background-color: rgb(211, 205, 205);
+    border-radius: 20px;
+}
+.container .active.middle {
+    float: none;
+    color: black;
+    position: absolute;
+    left: 500px;
+    bottom: 54px;
+    transform: translate(-50%, -50%);
+}
+.container a.nav-left{
+    float: left;
+    color: black;
+    font-size: 20px;
+}
+.container a:hover{
+    border-radius: 16px;
+    margin: 2px 4px;
+    
+}
+.heading {
+    color:  black;
+    font-size: 45px;
+    font-family: "Roboto Condensed", sans-serif;
+    padding-left: 85px;
+}
+
+.highlight{
+    color: black;
+    font-family:"Exo 2", sans-serif ;
+    font-size: 20px;
+   
+}
+.content-write{
+    display: flex;
+    padding-top: 50px;
+}
+.btn1{
+    border-radius: 10px;
+    height: 50px;
+    width: 130px;
+    color: black;
+    font-family: "Bakbak One", sans-serif;
+    background-color:rgb(238, 231, 231);
+    font-size: 15px;
+    
+}
+.btnColor{
+    color: black ;
+    font-weight: bold;
+}
+.container2{
+    float:right;
+    padding-left: 160px;
+    display: flex;
+}
+.contain{
+    text-align: center;
+    display: inline-block;
+    height: 300px;
+    width: 300px;
+    top:30px;
+}
+.image{
+    
+    height: 300px;
+    width: 500px;
+}
